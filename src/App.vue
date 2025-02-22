@@ -1,17 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <div>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <ParantComponent />
+    <ChildComponent :message="parentMessage" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChildComponent from './components/ChildComponent.vue'
+import ParantComponent from './components/ParantComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    ChildComponent,
+    ParantComponent,
+  },
+  data() {
+    return {
+      parentMessage: 'Hello, World ',
+    }
   },
 }
 </script>
