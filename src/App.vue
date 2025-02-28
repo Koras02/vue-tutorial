@@ -1,19 +1,13 @@
 <template>
-  <div>
-    <ParantComponent />
-    <ChildComponent :message="parentMessage" />
-  </div>
+  <KeyListAdd />
 </template>
 
 <script>
-import ChildComponent from './components/ChildComponent.vue'
-import ParantComponent from './components/ParantComponent.vue'
-
+import KeyListAdd from './components/List/KeyListAdd.vue'
 export default {
   name: 'App',
   components: {
-    ChildComponent,
-    ParantComponent,
+    KeyListAdd,
   },
   data() {
     return {
