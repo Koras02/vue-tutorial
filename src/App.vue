@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/user">User</router-link>
+      <router-link to="/counter">Counter</router-link>
     </nav>
     <router-view></router-view>
     <!-- 현재 라우트에 해당하는 컴포넌트 랜더링 -->

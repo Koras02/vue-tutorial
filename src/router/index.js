@@ -4,6 +4,7 @@ import UserLayout from '@/components/User/UserLayout.vue'
 import UserDetail from '@/components/User/UserDetail.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import UserList from '@/components/User/UserList.vue'
+import Counter from '@/components/Counter.vue'
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About,
+  },
+  {
+    path: '/counter',
+    name: 'Counter',
+    component: Counter,
   },
   {
     path: '/user',
