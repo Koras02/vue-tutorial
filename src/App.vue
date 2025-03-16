@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
       <router-link to="/user">User</router-link>
       <router-link to="/counter">Counter</router-link>
+      <router-link to="/api">Api</router-link>
     </nav>
     <router-view></router-view>
     <!-- 현재 라우트에 해당하는 컴포넌트 랜더링 -->
