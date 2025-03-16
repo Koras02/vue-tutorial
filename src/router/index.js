@@ -5,6 +5,7 @@ import UserDetail from '@/components/User/UserDetail.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import UserList from '@/components/User/UserList.vue'
 import Counter from '@/components/Counter.vue'
+import Api from '@/components/Api.vue'
 
 const routes = [
   {
@@ -21,6 +22,11 @@ const routes = [
     path: '/counter',
     name: 'Counter',
     component: Counter,
+  },
+  {
+    path: '/api',
+    name: 'Api',
+    component: Api,
   },
   {
     path: '/user',
